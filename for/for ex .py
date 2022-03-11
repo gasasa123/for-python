@@ -49,24 +49,9 @@ for i in range(100,5000,4):
 # 8
 for i in range(5,2500):
     if i %6==0:
-        print(i)
+        print(i
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 9
+name = input("please enter your nane :")
+for letter in name:
+    print(letter)
