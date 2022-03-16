@@ -55,3 +55,82 @@ for i in range(5,2500):
 name = input("please enter your nane :")
 for letter in name :
     print(letter, end = "")
+
+# 10
+rows = int(input("Please Enter the Total Number of Rows  : "))
+columns = rows - 4
+if rows < 4 :
+    print("please enter a number larger then 4")
+else:
+    for i in range(rows):
+        for j in range(columns):
+            print('*', end = '  ')
+        print()
+
+# 11
+x = input("enter 5 digit nun:",)
+y = input("enter 5 digit nun:")
+for (i,j) in zip(x,y):
+    if i == j:
+        print (i)
+# 12
+sum=0
+for x in range(0,50):
+    sum+=x
+print("sum is:",sum)
+
+# 13
+sum=0
+for x in range(100,250,3):
+    sum+=x
+print("sum is:",sum)
+
+# 14
+sum=0
+for x in range(1000,5000,7):
+    sum+=x
+print("sum is:",sum)
+
+# 15
+sum = 1
+for x in range(5,20):
+    sum*=x
+print("sum is:",sum)
+
+# 16
+sum = 1
+for x in range(15,35,2):
+    sum*=x
+print("sum is:",sum)
+
+# 17
+num=int(input("please enter number:"))
+for i in range (num):
+    if i % 2 == 0:
+        print(i)
+
+# 18
+num=int(input("please enter number:"))
+for i in range (num):
+    if i % 7 != 0:
+        print(i)
+    if i % 7 == 0 :
+        print("boom")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
