@@ -117,20 +117,8 @@ for i in range (num):
     if i % 7 == 0 :
         print("boom")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 19
+num = 0
+for i in range (1,20):
+    if i%2==0:
+        print(i)
